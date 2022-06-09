@@ -11,6 +11,8 @@ body{
     min-height:100vh;
     display:flex;
     flex-direction: column;
+    max-width: 800px;
+    margin: auto;
 }
 
 header{
@@ -47,12 +49,6 @@ a.selected {
     color: #348543;
   }
 
-div.manifesto{
-    display: block;
-    max-width: 64%;
-    /* align-items: center; */
-    justify-content: space-around;
-}
 
 footer{
     display:flex;
